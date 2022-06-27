@@ -1,0 +1,7 @@
+ThreadPoolServerSystem has an object of TPS-Service that can dynamically loads any service(Thread Pool System)
+ through its  serviceLoader() method . Every service extends TPSInterface class and provides its own implementation
+  of abstract methods of TPSInterface. This polymorphic behavior is used implement extensibility mechanism and 
+  any service can  be loaded dynamically for performance testing. Also a new service can be dynamically loaded 
+  on the server side for performance testing. but the service must implent TPSInterface and provide its own
+  implementation.
+ 

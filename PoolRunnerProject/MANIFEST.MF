@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Class-Path: jfreechart-1.0.17.jar jcommon-1.0.8.jar  commons-math3-3.6.jar commons-validator-1.6.jar
+Main-Class: com.jpoolrunner.startingwindow.DialogueTest
+
+
