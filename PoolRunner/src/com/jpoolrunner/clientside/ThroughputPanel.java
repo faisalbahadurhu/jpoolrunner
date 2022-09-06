@@ -375,6 +375,18 @@ public class ThroughputPanel extends Consumer{
 	}
 	public double getTotalThroughput() {
 		double sum=0.0;
+		counter=0;
+		
+		//remove the first element if it is 0.0
+		if((double)throughputs.elementAt(0)==0.0) throughputs.remove(0);	
+		//remove all last elements if they r 0.0
+		for( int index = throughputs.size() - 1 ; index >= 0 ; index-- ){
+			if((double)throughputs.elementAt(index)==0.0)
+				{counter++;continue;}
+			else break;
+		}
+	 for(int i=1;i<=counter;i++)throughputs.remove(throughputs.size() - 1);	
+		
 		Iterator it=throughputs.iterator();
 		//	String s="";
 		while(it.hasNext()){
