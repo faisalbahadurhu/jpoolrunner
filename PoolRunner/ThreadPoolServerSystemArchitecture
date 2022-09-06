@@ -1,0 +1,19 @@
+The class ThreadPoolServerSystem is the main class of the server side that initiates extensibility mechanism, listener object for client's connection,
+ the producer-consumer objects to receive clients requests and send thread pool responses back to the client.
+ ThreadPoolServerSystem has a ConnectionListener object that waits for a client to connect with it. ThreadPoolServerSystem has 
+a TPS-Service that can load a particular service for  testing requested by the client. A client connects with 
+the server with the help of ConnectionListener by socket. ConnectionListener then starts a thread called StrategyNameCommunicator and 
+passes I/O streams to it and ends its execution. StrategyNameCommunicator sends the names of all  available services  to the client and 
+. The client will request to perform performance testing of a particular thread pool system by sending its name to StrategyNameCommunicator
+ that will first load  the service dynamically with the help of TPS-Service. StrategyNameCommunicator will also starts three threads called Receiver,
+ ResponseSender  and Consumer thread and then it ends its execution.  The receiver thread will repeatedly accept client's requests from input stream 
+and put it in a Producer-Consumer queue where these requests are consumed by the Consumer thread that will fetch a request mark a
+ nano-second time stamp on it and submit the request to the loaded service. When the service will start processing a request i.e. 
+ fetched it from one of its ready queue and started to run then the request is marked by a nano-second time stamp and then
+  executes. When the request completes it is again marked by third time stamp and and put the response in another Producer 
+  consumer queue to be picked up by the Response sender thread that will send response back to the client. ResponseSender will repeatedly sends 
+  responses from the queue until it receives an end of simulation signal. At this stage the response sender will first check whether all the responses have been sended
+  to the client or not , when the queue becomes empty the ResponseSender first starts  StrategyNameCommunicator thread again and ends its own execution. This process would
+  be repeated to simulate other services. The marked time staps are used to calculate permomance measurements parameters at 
+  the client side to generate a report.
+  

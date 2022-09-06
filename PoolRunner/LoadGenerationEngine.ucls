@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.9" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="com.jpoolrunner.clientside.LoadGenerationEngine" project="PoolRunnerProject" 
+    file="/PoolRunnerProject/src/com/jpoolrunner/clientside/LoadGenerationEngine.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="138" width="216" x="77" y="153"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="javax.swing.Timer" project="PoolRunnerProject" 
+    file="C:/Program Files/Java/jdk1.7.0_21/jre/lib/rt.jar" binary="true" corner="BOTTOM_RIGHT">    
+    <position height="97" width="101" x="119" y="12"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="3" language="java" name="com.jpoolrunner.frequencyDistribution.FrequencyDistributorInterface" 
+    project="PoolRunnerProject" 
+    file="/PoolRunnerProject/src/com/jpoolrunner/frequencyDistribution/FrequencyDistributorInterface.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="494" y="243"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="4" language="java" name="com.jpoolrunner.frequencyDistribution.ConstantDistributor" 
+    project="PoolRunnerProject" 
+    file="/PoolRunnerProject/src/com/jpoolrunner/frequencyDistribution/ConstantDistributor.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="674" y="82"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="com.jpoolrunner.frequencyDistribution.GuassianDistributor" 
+    project="PoolRunnerProject" 
+    file="/PoolRunnerProject/src/com/jpoolrunner/frequencyDistribution/GuassianDistributor.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="196" x="654" y="157"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="com.jpoolrunner.frequencyDistribution.ParetoDistributor" 
+    project="PoolRunnerProject" 
+    file="/PoolRunnerProject/src/com/jpoolrunner/frequencyDistribution/ParetoDistributor.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="130" width="181" x="506" y="329"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="com.jpoolrunner.frequencyDistribution.PoissonDistributor" 
+    project="PoolRunnerProject" 
+    file="/PoolRunnerProject/src/com/jpoolrunner/frequencyDistribution/PoissonDistributor.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="128" width="169" x="317" y="329"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="com.jpoolrunner.frequencyDistribution.UniformDistributor" 
+    project="PoolRunnerProject" 
+    file="/PoolRunnerProject/src/com/jpoolrunner/frequencyDistribution/UniformDistributor.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="152" width="169" x="348" y="4"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="9">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="10" name="randomNumberDistributor">        
+        <position height="18" width="132" x="293" y="179"/>      
+      </attribute>      
+      <multiplicity id="11" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="12">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="2"/>  
+  </generalization>  
+  <realization id="13">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <realization id="14">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <realization id="15">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <realization id="16">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <realization id="17">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

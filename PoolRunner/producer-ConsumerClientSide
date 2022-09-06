@@ -1,0 +1,8 @@
+Each performance metric is shown in a separate graphic panel where its Dataupdater object continously update the 
+grahps on arrival of responses . Response and wait panels have sepate Histograms graphs for each request type. whereas
+ Poolsize and wait panels shows only averages. All performance metrics panels extends Consumer object in order to
+ consume fetch responses from a producer-consumer queue and plot the desired results. consumer object implements
+  a MessageListener interface and listens for a message when arrives from the server and put the message in a 
+  produceconsumer queue. Since each panel extends consumer so each panel has its own queue. When Receiver objects receivs a
+  message from the server it hand it over to Producer object that have list of all MessageListeners. Producer produce the 
+  response to all MessageListenr objects by putting the response in each producer-consumer queue.

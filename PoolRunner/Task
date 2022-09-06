@@ -1,0 +1,6 @@
+The requests send by the client to the server are simulated throurgh Runnable objects. CpuBoundTask and IOBoundTask
+ are two classes that are Runnable and extends Task class that is also Serializable so that it can be sent over a 
+ network. An IOBoundTask object simulates an I/O bound job whereas CPUBoundTask object  simulates a CPU bound job.
+ Both of these objects are run by the Thread Pool System. Task object provides set of methods that are used to
+ mark time stamps on the request. The parameters of Task object are used to measure the server performance.
+
