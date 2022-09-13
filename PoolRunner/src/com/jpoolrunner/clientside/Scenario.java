@@ -531,7 +531,7 @@ public class Scenario {
 		//following 5 loops will populate loadOntheServer with static load
 		//	JOptionPane.showMessageDialog(null,oneKb+tenKb+hundredKb+thousandKb+twoThousandKb);
 		//	JOptionPane.showMessageDialog(null,tenMilliSecond+fiftyMilliSecond+hundredMilliSecond);
-		final int oneKbSleep=100,tenKbSleep=200,hundredKbSleep=300,thousandKbSleep=1000,twoThousandKbSleep=2000,tenMilliSecondRun=1,fiftyMilliSecondRun=2,hundredMilliSecondRun=3;
+		final int oneKbSleep=100,tenKbSleep=200,hundredKbSleep=300,thousandKbSleep=500,twoThousandKbSleep=1000,tenMilliSecondRun=1,fiftyMilliSecondRun=2,hundredMilliSecondRun=3;
 		for(int i=0;i<((int)(((float)oneKb/100)*this.staticLoadPercentage));i++)
 			loadOntheServer.add("I"+oneKbSleep);//ie 250 milliseconds
 		for(int i=0;i<((int)(((float)tenKb/100)*this.staticLoadPercentage));i++)

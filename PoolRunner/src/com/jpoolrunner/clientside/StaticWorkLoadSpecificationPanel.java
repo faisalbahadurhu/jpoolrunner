@@ -514,7 +514,7 @@ public class StaticWorkLoadSpecificationPanel extends JPanel
 		JPanel panel_17 = new JPanel();
 		panel_14.add(panel_17, BorderLayout.CENTER);
 		
-		JLabel lblNewLabel_2 = new JLabel("Simulating 1000KB file"+"\u2243"+"1000ms): Access Frequency (%) :");
+		JLabel lblNewLabel_2 = new JLabel("Simulating 1000KB file"+"\u2243"+"500ms): Access Frequency (%) :");
 		panel_17.add(lblNewLabel_2);
 		
 		thousandKbtextField = new JTextField();
@@ -647,8 +647,8 @@ public class StaticWorkLoadSpecificationPanel extends JPanel
 		
 		JPanel panel_21 = new JPanel();
 		panel_18.add(panel_21, BorderLayout.CENTER);
-		
-		JLabel lblNewLabel_3 = new JLabel("File Size: 2000 KB Simulation: Access Frequency (%) :");
+		//
+		JLabel lblNewLabel_3 = new JLabel("Simulating 1200KB file"+"\u2243"+"1000ms):Access Frequency(%):");
 		panel_21.add(lblNewLabel_3);
 		
 		twoThousandKbtextField = new JTextField();

@@ -101,7 +101,7 @@ public Vector getWaitTimeGraphs(){ return this.graphs;}
 
 					String title="";
 					switch(lowerBound){
-					case 1:title+="Low CPU-Bound Jobs";break;
+				/*	case 1:title+="Low CPU-Bound Jobs";break;
 					case 2:title+="High CPU-Bound Jobs";break;
 					case 3:title+="V.High CPU-Bound Jobs";break;
 					case 100: title+="1kb file";break;
@@ -109,8 +109,23 @@ public Vector getWaitTimeGraphs(){ return this.graphs;}
 					case 300:title+="100kb file";break;
 					case 400:title+="1000kb file";break;
 					case 2000:title+="2000kb file";break;
-					case 1000:title+="1000kb file";break;
+					case 1000:title+="1000kb file";break;*/
 
+					
+					case 1:title+="Low CPU-Bound Jobs";break;
+					case 2:title+="High CPU-Bound Jobs";break;
+					case 3:title+="V.High CPU-Bound Jobs";break;//this is xcluded from DynamicWorkloadSpecificationpanel
+					case 100: title+="1kb file";break;
+					case 200:title+="10kb file";break;
+					case 300:title+="100kb file";break;
+					case 400:title+="1000kb file";break;
+					case 500:title+="1000kb file";break;
+					case 600:title+="1000kb file";break;
+					case 700:title+="1000kb file";break;
+					case 800:title+="1000kb file";break;
+					case 900:title+="1000kb file";break;
+					case 1000:title+="1200kb file";break;
+					case 2000:title+="2000kb file";break;
 					
 					
 					}

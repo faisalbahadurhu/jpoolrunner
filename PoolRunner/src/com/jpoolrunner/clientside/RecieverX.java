@@ -88,7 +88,7 @@ public class RecieverX extends Thread {
 			this.sleepTime.setSend(false);//so that ResponsePanel and waitPanel timers run without sleeping to print results fatly
 		//	JOptionPane.showMessageDialog(null, s);
 		 //   printResponsePanelData();
-
+		//	this.throughputPanel.paintAfterchangeChart();
 		}
 		catch(Exception e){
 			JOptionPane.showMessageDialog(null, "You have been disconnected and Exception has thrown in RecieverX");

@@ -98,6 +98,12 @@ public class ThroughputPanel extends Consumer{
 	public XYSeries getSeries(){// for comparison 
 		return this.series1;
 	}
+	/*public void paintAfterchangeChart(){
+		int ys=throughputSeries.getItemCount();
+		JOptionPane.showMessageDialog(null, ys+""
+				+throughputSeries.getY(ys-1)+" :"+throughputSeries.getY(ys-2)+": "+throughputSeries.getY(ys-3) );
+		
+	}*/
 	public void changeChart(){
 		double minimum=throughputSeries.getMinY();
 		double maximum=throughputSeries.getMaxY();//getMinY();
@@ -105,9 +111,7 @@ public class ThroughputPanel extends Consumer{
         NumberAxis rangeAxis = (NumberAxis) plot.getRangeAxis();
  	   rangeAxis.setRange(minimum-1.0,maximum+1.0);
 
-
-		
-	}
+}
 	public ThroughputPanel(NonblockingCounter throughput,NonblockingCounter tracerForCompareButton,SharedBoolean sharedBoolean,JComboCheckBox compare, JButton compareButton, Vector throughputs, String strategyName, JButton responsePanelStatisticsButton, JButton poolSizePanelStatisticsButton, JButton throughputPanelStatisticsButton, JButton waitPanelStatisticsButton, Scenario scenario, JButton buttonRTStatisticsTable, JButton buttonWTStatisticsGraph){
 		this.responseStatisticsButton=responsePanelStatisticsButton;
 		this.buttonWTStatisticsGraph=buttonWTStatisticsGraph;

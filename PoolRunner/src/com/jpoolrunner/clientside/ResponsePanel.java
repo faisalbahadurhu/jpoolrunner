@@ -146,7 +146,12 @@ public double getAverageRT(){
 					case 200:title+="10kb file";break;
 					case 300:title+="100kb file";break;
 					case 400:title+="1000kb file";break;
-					case 1000:title+="1000kb file";break;
+					case 500:title+="1000kb file";break;
+					case 600:title+="1000kb file";break;
+					case 700:title+="1000kb file";break;
+					case 800:title+="1000kb file";break;
+					case 900:title+="1000kb file";break;
+					case 1000:title+="1200kb file";break;
 					case 2000:title+="2000kb file";break;
 					}
 					graphs.add(new HistogramGraph(title+" Response Times ",lowerBound)) ;
