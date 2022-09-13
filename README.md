@@ -1,5 +1,5 @@
 # jpoolrunner 
-#### Learn how to use by video tutorials <a href="https://www.jpoolrunner.net">https://www.jpoolrunner.net</a>
+#### Learn how to use by video tutorials ![hand_indicator](https://user-images.githubusercontent.com/108230246/189908783-7740c721-a59c-4c61-89c0-165e4ed53e2d.gif) <a href="https://www.jpoolrunner.net">https://www.jpoolrunner.net</a>
  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
  <a href="https://drive.google.com/uc?export=download&id=1wVH894PX44okBIfYNUW69GqJ-O9iWS0w">Download Now!</a>
  
