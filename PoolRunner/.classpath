@@ -6,6 +6,6 @@
 	<classpathentry kind="lib" path="C:/PoolRunner/commons-validator-1.6.jar"/>
 	<classpathentry kind="lib" path="C:/PoolRunner/jcommon-1.0.8.jar"/>
 	<classpathentry kind="lib" path="C:/PoolRunner/jfreechart-1.0.17.jar"/>
-	<classpathentry kind="lib" path="C:/PoolRunner/strategies/PoolRunner.jar"/>
+	<classpathentry kind="lib" path="C:/PoolRunner/strategies/PoolRunnerLib.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

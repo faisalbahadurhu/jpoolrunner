@@ -63,7 +63,7 @@ public class TPS_Service {
 				if (listOfFiles[i].isFile()) 
 				{
 					files1 = listOfFiles[i].getName();
-					if ((files1.endsWith(".jar") || files1.endsWith(".JAR"))&&(!files1.equals("PoolRunner.jar")))// && (!files1.equals("jcommon-1.0.21.jar")) && (!files1.equals("jfreechart-1.0.17.jar")) && (!files1.equals("RUN.bat")))//because all these 4 files reside inside folder that also contains a jar file of project ie PoolRunner or project.jar and then contains user added strategies
+					if ((files1.endsWith(".jar") || files1.endsWith(".JAR"))&&(!files1.equals("PoolRunnerLib.jar")))// && (!files1.equals("jcommon-1.0.21.jar")) && (!files1.equals("jfreechart-1.0.17.jar")) && (!files1.equals("RUN.bat")))//because all these 4 files reside inside folder that also contains a jar file of project ie PoolRunner or project.jar and then contains user added strategies
 					{
 
 						urls[counter++]=new URL(fullPath+"/"+files1);
