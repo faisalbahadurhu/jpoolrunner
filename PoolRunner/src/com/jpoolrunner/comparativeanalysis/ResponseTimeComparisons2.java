@@ -147,8 +147,8 @@ public class ResponseTimeComparisons2 extends JPanel {
 	//     Vector<DefaultIntervalCategoryDataset> datasetVector=new Vector<DefaultIntervalCategoryDataset>(5);
 	    Iterator it=vectorOfjobPercentilesVector.iterator();
 	    int space=0;//
-	    int sapce1,sapce2,sapce3,sapce4,sapce5,sapce6,sapce7,sapce8;
-	    sapce1=sapce2=sapce3=sapce4=sapce5=sapce6=sapce7=sapce8=0;
+	    int sapce1,sapce2,sapce3,sapce4,sapce5,sapce6,sapce7,sapce8,space9;
+	    sapce1=sapce2=sapce3=sapce4=sapce5=sapce6=sapce7=sapce8=space9=0;
     	while(it.hasNext()){
     		Vector jobPercentilesVector=(Vector) it.next();//it is jobPercentilesVector
     	    Iterator it2=jobPercentilesVector.iterator();
@@ -156,16 +156,7 @@ public class ResponseTimeComparisons2 extends JPanel {
     	    	JobPercentiles hgg=(JobPercentiles)it2.next();
     	    	String spaces=getSpace(space);
     	    	switch (Integer.parseInt(hgg.getJobName())){
-    	    /*	case 1:categoryKeys[count]=getSpace(sapce1++)+"Low";	break;
-				case 2:categoryKeys[count]=getSpace(sapce2++)+"High";	break;
-				case 3:categoryKeys[count]=getSpace(sapce3++)+"V.High";	break;
-				case 100:categoryKeys[count]=getSpace(sapce4++)+"1kb";	break;
-				case 200:categoryKeys[count]=getSpace(sapce5++)+"10kb";	break;
-				case 300:categoryKeys[count]=getSpace(sapce6++)+"100kb";	break;
-				case 400:categoryKeys[count]=getSpace(sapce7++)+"1000kb";	break;
-				case 2000:categoryKeys[count]=getSpace(sapce8++)+"2000kb";	break;
-				case 1000:categoryKeys[count]=getSpace(sapce8++)+"2000kb";	break;*/
-    	    	
+    	  	    	
     	    	case 1:categoryKeys[count]=getSpace(sapce1++)+"1";	break;
 				case 2:categoryKeys[count]=getSpace(sapce2++)+"2";	break;
 				case 3:categoryKeys[count]=getSpace(sapce3++)+"3";	break;
@@ -173,8 +164,13 @@ public class ResponseTimeComparisons2 extends JPanel {
 				case 200:categoryKeys[count]=getSpace(sapce5++)+"5";	break;
 				case 300:categoryKeys[count]=getSpace(sapce6++)+"6";	break;
 				case 400:categoryKeys[count]=getSpace(sapce7++)+"7";	break;
-				case 2000:categoryKeys[count]=getSpace(sapce8++)+"8";	break;
-				case 1000:categoryKeys[count]=getSpace(sapce8++)+"7";	break;
+				case 500:categoryKeys[count]=getSpace(sapce7++)+"7";	break;
+				case 600:categoryKeys[count]=getSpace(sapce7++)+"7";	break;
+				case 700:categoryKeys[count]=getSpace(sapce7++)+"7";	break;
+				case 800:categoryKeys[count]=getSpace(sapce7++)+"7";	break;
+				case 900:categoryKeys[count]=getSpace(sapce7++)+"7";	break;
+				case 2000:categoryKeys[count]=getSpace(space9++)+"9";	break;
+				case 1000:categoryKeys[count]=getSpace(sapce8++)+"8";	break;
     	    	
     		 	};
     		 //	categoryKeys[count]=spaces+hgg.getJobName();// job name ie 100 200 etc 

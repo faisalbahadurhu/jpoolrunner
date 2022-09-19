@@ -126,8 +126,13 @@ public class WaitStaticticsPanelFromDisk extends JPanel {
 					case 200:categoryKeys[count]=""+"10kb";	break;
 					case 300:categoryKeys[count]=""+"100kb";	break;
 					case 400:categoryKeys[count]=""+"1000kb";	break;
-					case 2000:categoryKeys[count]=""+"2000kb";	break;
-					case 1000:categoryKeys[count]=""+"1000kb";	break;// this is for future use
+					case 500:categoryKeys[count]=""+"1000kb";	break;
+					case 600:categoryKeys[count]=""+"1000kb";	break;
+					case 700:categoryKeys[count]=""+"1000kb";	break;
+					case 800:categoryKeys[count]=""+"1000kb";	break;
+					case 900:categoryKeys[count]=""+"1000kb";	break;
+					case 1000:categoryKeys[count]=""+"1200kb";	break;
+					case 2000:categoryKeys[count]=""+"2000kb";	break;// this is for future use
 						
 				 	};
 		    		 	//categoryKeys[count]=""+hgg.getJobName();// job name ie 100 200 etc 

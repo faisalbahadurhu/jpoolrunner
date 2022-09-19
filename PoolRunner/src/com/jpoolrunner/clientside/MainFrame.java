@@ -840,6 +840,7 @@ public class MainFrame extends JFrame implements ActionListener{
 							path2=previousTest;
 
 						}
+						try{
 						//TpsOnDisk tpsOnDisk=new TpsOnDisk(testNumberAndTpsNamePath.getPath(),requestFrequencies,responseSeries,waitPanelSeries,throughputPanelSeries,poolSizePanelSeries,resultStatistics,staticAndDynamicLoadValues,workLoadPatternValue);
 						TpsOnDisk tpsOnDisk=new TpsOnDisk(MainFrame.this,testNumberAndTpsNamePath.getPath(),requestFrequencies,throughputPanelSeries,poolSizePanelSeries,resultStatistics,staticAndDynamicLoadValues,workLoadPatternValue,previousTestNames,jobPercentilesVector,workLoadForBins);
 
@@ -847,6 +848,7 @@ public class MainFrame extends JFrame implements ActionListener{
 						removePanel();//summarayPanel
 						addPanel(tpsOnDisk.getDynamicPanel());//small panel at the left side
 						tpsOnDiskVector.add(tpsOnDisk);
+						}catch(Exception ex){System.out.println(""+ex.toString());}
 						requestFrequencies=null;
 						//responseSeries=null;
 						//waitPanelSeries=null;

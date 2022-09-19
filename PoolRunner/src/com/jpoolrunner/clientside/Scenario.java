@@ -1070,29 +1070,30 @@ public class Scenario {
 		model.addColumn("90th Percentile Bin(ms)");
 		//model.addColumn("95th Percentile(ms)");
 		//model.addColumn("Avg Response Time(ms)");
-
-		
 		Vector graphs=waitPanel.getWaitTimeGraphs();
 		Iterator it=graphs.iterator();
     	while(it.hasNext()){
     		 HistogramGraph2 hgg=(HistogramGraph2)it.next();
+    		 int D=hgg.getLowerBound();
+    		// System.out.println(" "+D+"\n");
     		 String job="";
- 		 	switch (hgg.getLowerBound()){
- 			case 1:job+="Low";	break;
+ 		 	switch (D){
+ 		 		case 1:job+="Low";	break;
 				case 2:job+="High";	break;
-				case 3:job+="V.High";	break;
-				case 100:job+="1kb";	break;
-				case 200:job+="10kb";	break;
-				case 300:job+="100kb";	break;
-				case 400:job+="1000kb";	break;
-				case 2000:job+="2000kb";	break;
-				case 1000:job+="1000kb";	break;// this is for future use
-					
- 		 	};
-    		 
-    		 
-    		 
-    		 	model.addRow(new Object[] { job,hgg.getNthPercentileBin(50.0),hgg.getNthPercentileBin(90.0)});
+				case 3:job+="V.High";break;
+				case 100:job+="1kb";break;
+				case 200:job+="10kb";break;
+				case 300:job+="100kb";break;
+				case 400:job+="1000kb";break;
+				case 500:job+="1000kb";break;
+				case 600:job+="1000kb";break;
+				case 700:job+="1000kb";break;
+				case 800:job+="1000kb";break;
+				case 900:job+="1000kb";break;
+				case 1000:job+="1200kb";break;
+				case 2000:job+="2000kb";break;
+					};
+    		 model.addRow(new Object[] {job,hgg.getNthPercentileBin(50.0),hgg.getNthPercentileBin(90.0)});
     	}
     	DefaultTableCellRenderer centerRenderer = new DefaultTableCellRenderer();
     	centerRenderer.setHorizontalAlignment(SwingConstants.CENTER );
@@ -1244,8 +1245,13 @@ String part2 = parts[1]; // 034556
 					case 200:categoryKeys[count]=""+"10kb";	break;
 					case 300:categoryKeys[count]=""+"100kb";	break;
 					case 400:categoryKeys[count]=""+"1000kb";	break;
+					case 500:categoryKeys[count]=""+"1000kb";	break;
+					case 600:categoryKeys[count]=""+"1000kb";	break;
+					case 700:categoryKeys[count]=""+"1000kb";	break;
+					case 800:categoryKeys[count]=""+"1000kb";	break;
+					case 900:categoryKeys[count]=""+"1000kb";	break;
+					case 1000:categoryKeys[count]=""+"1200kb";	break;
 					case 2000:categoryKeys[count]=""+"2000kb";	break;
-					case 1000:categoryKeys[count]=""+"1000kb";	break;// this is for future use
 						
 	    		 	};
 	    		 	
@@ -1269,8 +1275,13 @@ String part2 = parts[1]; // 034556
 					case 200:categoryKeys[count]=""+"10kb";	break;
 					case 300:categoryKeys[count]=""+"100kb";	break;
 					case 400:categoryKeys[count]=""+"1000kb";	break;
+					case 500:categoryKeys[count]=""+"1000kb";	break;
+					case 600:categoryKeys[count]=""+"1000kb";	break;
+					case 700:categoryKeys[count]=""+"1000kb";	break;
+					case 800:categoryKeys[count]=""+"1000kb";	break;
+					case 900:categoryKeys[count]=""+"1000kb";	break;
+					case 1000:categoryKeys[count]=""+"1200kb";	break;
 					case 2000:categoryKeys[count]=""+"2000kb";	break;
-					case 1000:categoryKeys[count]=""+"1000kb";	break;// this is for future use
 						
 	    		 	};
 	    		 	//categoryKeys[count]=""+hgg.getLowerBound();// job name ie 100 200 etc 
@@ -1421,14 +1432,16 @@ String part2 = parts[1]; // 034556
 				case 200:job+="10kb";	break;
 				case 300:job+="100kb";	break;
 				case 400:job+="1000kb";	break;
-				case 2000:job+="2000kb";	break;
-				case 1000:job+="1000kb";	break;// this is for future use
-					
-    		 	};
+				case 500:job+="1000kb";	break;
+				case 600:job+="1000kb";	break;
+				case 700:job+="1000kb";	break;
+				case 800:job+="1000kb";	break;
+				case 900:job+="1000kb";	break;
+				case 1000:job+="1200kb";	break;
+				case 2000:job+="2000kb";	break;// this is for future use
+			 	};
     		 	///////////
-    		 	
-    		 	
-    		 	model.addRow(new Object[] { job ,hgg.getNthPercentileBin(50.0),hgg.getNthPercentileBin(90.0)});
+    		 model.addRow(new Object[] { job ,hgg.getNthPercentileBin(50.0),hgg.getNthPercentileBin(90.0)});
     	}
     	DefaultTableCellRenderer centerRenderer = new DefaultTableCellRenderer();
     	centerRenderer.setHorizontalAlignment(SwingConstants.CENTER );
@@ -1444,7 +1457,7 @@ String part2 = parts[1]; // 034556
 	}
 	private JTable prepareAndGetStaticTable(){
 
-		String[] columnNames = {"File Size","Access Frequency(%)"};
+		String[] columnNames = {"File Size=","Access Frequency(%)"};
 		/*
  int oneKb,tenKb,hundredKb,thousandKb,twoThousandKb;//static load
 	Vector<Integer> staticLoadValues;//All above values are extracted from this vector.U can use this vector also instead of above variables 
@@ -1457,7 +1470,7 @@ String part2 = parts[1]; // 034556
 				{"10 KB",new Integer(tenKb)},
 				{"100 KB",new Integer(hundredKb)},
 				{"1000 KB",new Integer(thousandKb)},
-				{"2000 KB",new Integer(twoThousandKb)},
+				{"1200 KB",new Integer(twoThousandKb)},
 
 		};
 
@@ -1740,7 +1753,7 @@ String part2 = parts[1]; // 034556
 					outStream.writeObject("starting");// it is a signal to StrategyNameCommuncator Thread on the server side that i m going to send the Jobs ...when this signal is recieved by StrategyNameCommuncator then StrategyNameCommuncator wil start Reciever and ResponseSender Threads
 					outStream.flush();
 				}catch(Exception ex){
-					System.out.println("Exception in Mainframe in start button sending a protocol of starting");
+				//	System.out.println("Exception in Mainframe in start button sending a protocol of starting");
 					JOptionPane.showMessageDialog(null, "Server is not Running/n Exception in Mainframe in start button sending a protocol of starting");
 					System.exit(0);
 				}
@@ -1808,7 +1821,7 @@ String part2 = parts[1]; // 034556
 					gcRunner.setPriority(Thread.MAX_PRIORITY);
 					gcRunner.start();
 				}catch(Exception ex){
-					System.out.println("Exception in Mainframe in stop button sending a protocol of stop");
+					//System.out.println("Exception in Mainframe in stop button sending a protocol of stop");
 					JOptionPane.showMessageDialog(null, "Server is not Running/n Exception in Mainframe in stop button sending a protocol of stop");
 					System.exit(0);
 				}
@@ -1826,7 +1839,7 @@ String part2 = parts[1]; // 034556
 					outStream.writeObject("warmup");// it is a signal to StrategyNameCommuncator Thread on the server side that i m going to send the Jobs ...when this signal is recieved by StrategyNameCommuncator then StrategyNameCommuncator wil start Reciever and ResponseSender Threads
 					outStream.flush();
 				}catch(Exception ex){
-					System.out.println("Exception in Mainframe in start button sending a protocol of starting");
+					//System.out.println("Exception in Mainframe in start button sending a protocol of starting");
 					JOptionPane.showMessageDialog(null, "Server is not Running/n Exception in Mainframe in start button sending a protocol of starting");
 					System.exit(0);
 				}

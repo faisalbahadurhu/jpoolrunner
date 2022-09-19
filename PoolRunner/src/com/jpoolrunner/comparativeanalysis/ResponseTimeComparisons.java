@@ -200,6 +200,7 @@ public class ResponseTimeComparisons extends JPanel {
     	while(itq.hasNext()){
     		JobData job=(JobData) itq.next();//it is jobPercentilesVector
     		switch (Integer.parseInt(job.getJobName())){
+    	  		
     	    	case 1:categoryKeys[count]="Low";	break;
 				case 2:categoryKeys[count]="High";	break;
 				case 3:categoryKeys[count]="V.High";	break;
@@ -207,8 +208,13 @@ public class ResponseTimeComparisons extends JPanel {
 				case 200:categoryKeys[count]="10kb";	break;
 				case 300:categoryKeys[count]="100kb";	break;
 				case 400:categoryKeys[count]="1000kb";	break;
+				case 500:categoryKeys[count]="1000kb";	break;
+				case 600:categoryKeys[count]="1000kb";	break;
+				case 700:categoryKeys[count]="1000kb";	break;
+				case 800:categoryKeys[count]="1000kb";	break;
+				case 900:categoryKeys[count]="1000kb";	break;
 				case 2000:categoryKeys[count]="2000kb";	break;
-				case 1000:categoryKeys[count]="1000kb";	break;
+				case 1000:categoryKeys[count]="1200kb";	break;
     	    	
     	  	
     		 	};

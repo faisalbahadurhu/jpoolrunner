@@ -18,8 +18,13 @@ public class JobData {
 	case 200:JobNameAsCategoryKey="10kb";	break;
 	case 300:JobNameAsCategoryKey="100kb";	break;
 	case 400:JobNameAsCategoryKey="1000kb";	break;
+	case 500:JobNameAsCategoryKey="1000kb";	break;
+	case 600:JobNameAsCategoryKey="1000kb";	break;
+	case 700:JobNameAsCategoryKey="1000kb";	break;
+	case 800:JobNameAsCategoryKey="1000kb";	break;
+	case 900:JobNameAsCategoryKey="1000kb";	break;
 	case 2000:JobNameAsCategoryKey="2000kb";	break;
-	case 1000:JobNameAsCategoryKey="1000kb";	break;
+	case 1000:JobNameAsCategoryKey="1200kb";	break;
 	
 	
  	};

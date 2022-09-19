@@ -55,6 +55,7 @@ public class ResponseStatisticPanelFromDisk extends JPanel {
 
 	public ResponseStatisticPanelFromDisk(String strategyName, Vector<JobPercentiles> jobPercentilesVector) {
 		// TODO Auto-generated constructor stub
+		try{
 		this.jobPercentilesVector=jobPercentilesVector;
 		this.strategyName=strategyName;
 
@@ -110,8 +111,13 @@ public class ResponseStatisticPanelFromDisk extends JPanel {
 			case 200:categoryKeys[count]=""+"10kb";	break;
 			case 300:categoryKeys[count]=""+"100kb";	break;
 			case 400:categoryKeys[count]=""+"1000kb";	break;
+			case 500:categoryKeys[count]=""+"1000kb";	break;
+			case 600:categoryKeys[count]=""+"1000kb";	break;
+			case 700:categoryKeys[count]=""+"1000kb";	break;
+			case 800:categoryKeys[count]=""+"1000kb";	break;
+			case 900:categoryKeys[count]=""+"1000kb";	break;
 			case 2000:categoryKeys[count]=""+"2000kb";	break;
-			case 1000:categoryKeys[count]=""+"1000kb";	break;// this is for future use
+			case 1000:categoryKeys[count]=""+"1200kb";	break;// this is for future use
 				
 		 	};
     		 	//categoryKeys[count]=""+hgg.getJobName();// job name ie 100 200 etc 
@@ -177,5 +183,6 @@ public class ResponseStatisticPanelFromDisk extends JPanel {
 	   
 		this.add(panel,BorderLayout.CENTER);
 
-		}
+		}catch(Exception e){System.out.println("/////////////////////////////////"+e.toString());}
+	}
 }

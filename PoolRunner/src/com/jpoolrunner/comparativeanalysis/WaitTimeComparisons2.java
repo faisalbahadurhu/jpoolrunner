@@ -137,8 +137,13 @@ public class WaitTimeComparisons2 extends JPanel {
 				case 200:categoryKeys[count]=spaces+"10kb";	break;
 				case 300:categoryKeys[count]=spaces+"100kb";	break;
 				case 400:categoryKeys[count]=spaces+"1000kb";	break;
+				case 500:categoryKeys[count]=spaces+"1000kb";	break;
+				case 600:categoryKeys[count]=spaces+"1000kb";	break;
+				case 700:categoryKeys[count]=spaces+"1000kb";	break;
+				case 800:categoryKeys[count]=spaces+"1000kb";	break;
+				case 900:categoryKeys[count]=spaces+"1000kb";	break;
 				case 2000:categoryKeys[count]=spaces+"2000kb";	break;
-				case 1000:categoryKeys[count]=spaces+"1000kb";	break;// this is for future use
+				case 1000:categoryKeys[count]=spaces+"1200kb";	break;// this is for future use
     		 	};
     		 //	categoryKeys[count]=spaces+hgg.getJobName();// job name ie 100 200 etc 
     		 	s1[count]=0;// bin first range is kept to 0

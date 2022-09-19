@@ -68,6 +68,7 @@ public class ResponsePanel extends Consumer {
 
 	Vector graphs=new Vector(3);
 	JPanel flowPanel;
+	JPanel gridOfGraphs;
 	//int counter=0;
 
 public JFreeChart getChart(){return this.chart;}
@@ -118,10 +119,13 @@ public double getAverageRT(){
 		this.setLayout(new BorderLayout());
 		this.setPreferredSize(new Dimension(500,205));
 		
-		 flowPanel=new JPanel(new FlowLayout());	
+		 flowPanel=new JPanel(new FlowLayout());
+		 gridOfGraphs=new JPanel(new GridLayout(10,1));
 		JPanel centrePanel=new JPanel();
 		centrePanel.setLayout(new BorderLayout());
-		centrePanel.add(flowPanel, BorderLayout.CENTER);
+		//centrePanel.add(flowPanel, BorderLayout.CENTER);
+		centrePanel.add(gridOfGraphs, BorderLayout.CENTER);
+
 		JScrollPane scrollerForRTGraph=new JScrollPane(centrePanel);
 		scrollerForRTGraph.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
 		scrollerForRTGraph.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_ALWAYS);
@@ -155,7 +159,10 @@ public double getAverageRT(){
 					case 2000:title+="2000kb file";break;
 					}
 					graphs.add(new HistogramGraph(title+" Response Times ",lowerBound)) ;
-					flowPanel.add((HistogramGraph)graphs.elementAt(i));
+				//	flowPanel.add((HistogramGraph)graphs.elementAt(i));
+					gridOfGraphs.add((HistogramGraph)graphs.elementAt(i));
+
+					
 				}
 	}
  
@@ -304,7 +311,7 @@ public double getAverageRT(){
 								bin2=new SimpleHistogramBin(90,110, true, false);
 								bin3=new SimpleHistogramBin(110,130, true, false); 
 								histogramBins.add(bin1);histogramBins.add(bin2);histogramBins.add(bin3);
-								dataset.addBin(bin1);dataset.addBin(bin2);dataset.addBin(bin3);
+								dataset.addBin(bin1);dataset.addBin(bin2);dataset.addBin(bin3);						
 								break;
 						case 3: bin1=new SimpleHistogramBin(50,80, true, false);
 								bin2=new SimpleHistogramBin(80,100, true, false);
@@ -340,6 +347,8 @@ public double getAverageRT(){
 				 upperBound2+=6;
 				// binWidth+=5;//
 			 }
+
+			 
 		//	 JOptionPane.showMessageDialog(null,test);
 			}
 			 setPreferredSize(new Dimension(200,150));
@@ -418,11 +427,22 @@ public double getAverageRT(){
 				break;
 			}	
 			}
+			//else  {this.dataset.addObservation(responseTime);
+			// histogramBins.add(new SimpleHistogramBin(2222, 2232));//e.g. lowerBound is 100ms then it would be 95 to 101
+			// dataset.addBin((SimpleHistogramBin)histogramBins.lastElement());
 			else{
 			if(responseTime>=lowerBound-5 && responseTime<=this.lowerBound+upperBound)// e.g for 100ms it is 100+30=130 which is the upper bound of the last bin
 			 this.dataset.addObservation(responseTime);
 			else this.dataset.addObservation(this.lowerBound+upperBound-1);// don not drop the responses above upper bound but just add to the last bin.
 			}
+		/*	else{
+				if(responseTime>=lowerBound-5 && responseTime<=this.lowerBound+upperBound)// e.g for 100ms it is 100+30=130 which is the upper bound of the last bin
+					 this.dataset.addObservation(responseTime);
+					else{
+						 histogramBins.add(new SimpleHistogramBin(, 2232));//e.g. lowerBound is 100ms then it would be 95 to 101
+						// dataset.addBin((SimpleHistogramBin)histogramBins.lastElement());
+					}
+			}*/
 			}
 		
 		public int getTotalItems(){

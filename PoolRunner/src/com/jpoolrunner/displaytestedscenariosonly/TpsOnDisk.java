@@ -99,7 +99,9 @@ public class TpsOnDisk extends JPanel{
 		hundredMilliSecond=staticAndDynamicLoadValues.elementAt(7);
 		staticLoadPercentage=staticAndDynamicLoadValues.elementAt(8);
 		dynamicLoadPercentage=staticAndDynamicLoadValues.elementAt(9);
+		try{
 		preparePanel();
+		}catch(Exception e){System.out.println("I m TPSOnDisk.java "+e.toString());}
 		dynamicPanel=new DynamicPanel();
 		cgWindow=new CompareGraphWindow(this.mainFrame,"Comparative Analysis");
 		
@@ -291,7 +293,7 @@ public class TpsOnDisk extends JPanel{
 					{"10 KB",new Integer(tenKb)},
 					{"100 KB",new Integer(hundredKb)},
 					{"1000 KB",new Integer(thousandKb)},
-					{"2000 KB",new Integer(twoThousandKb)},
+					{"1200 KB",new Integer(twoThousandKb)},
 
 			};
 
