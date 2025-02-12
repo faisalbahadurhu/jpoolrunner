@@ -1,7 +1,7 @@
 # jpoolrunner 
 #### Learn how to use by video tutorials ![hand_indicator](https://user-images.githubusercontent.com/108230246/189908783-7740c721-a59c-4c61-89c0-165e4ed53e2d.gif) <a href="https://www.jpoolrunner.net">https://www.jpoolrunner.net</a> <hr>
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
- <a href=" https://drive.google.com/file/d/1RAo4mLxb0R3K1mzhKXyNzsY8RNXq0eK_/view?usp=sharing">Download PoolRunner Now!</a> 
+ <a href="https://github.com/faisalbahadurhu/jpoolrunner/blob/main/PoolRunner.zip">Download PoolRunner Now!</a> 
 
 
 
