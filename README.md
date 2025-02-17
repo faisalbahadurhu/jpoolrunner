@@ -16,9 +16,9 @@ A client-server based extensible performance testing simulation tool for Thread 
 https://drive.google.com/file/d/1slxa8KnF4hhyADOuOoBbM3ZRI0mXEHP2/view?usp=drive_link
 ![](https://github.com/faisalbahadurhu/jpoolrunner/issues/6#issue-2858409218)
 
-[![poolrunner](https://user-images.githubusercontent.com/108230246/189495284-322dff07-8973-4030-8215-039a9416504a.jpg)](https://drive.google.com/file/d/1slxa8KnF4hhyADOuOoBbM3ZRI0mXEHP2/view?usp=drive_link)
 
-![Image](https://github.com/user-attachments/assets/5b39a3ab-9d4d-4d86-9181-5e8c8bd69b0d)
+
+[![Image](https://github.com/user-attachments/assets/5b39a3ab-9d4d-4d86-9181-5e8c8bd69b0d)](https://drive.google.com/file/d/1slxa8KnF4hhyADOuOoBbM3ZRI0mXEHP2/view?usp=drive_link)
 
 
 
