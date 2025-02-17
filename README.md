@@ -9,7 +9,8 @@ A client-server based extensible performance testing simulation tool for Thread 
 
 <hr>
 
- <p align="center">How to use the PoolRunner</p>
+ <p align="center">
+  <h1>How to use the PoolRunner</h1></p>
  <hr> 
  
 [![Image](https://github.com/user-attachments/assets/e0aaf8cd-6b14-4034-b394-def567e3fb7f)](https://drive.google.com/file/d/1slxa8KnF4hhyADOuOoBbM3ZRI0mXEHP2/view?usp=drive_link)
