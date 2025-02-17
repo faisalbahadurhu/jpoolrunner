@@ -10,14 +10,7 @@ A client-server based extensible performance testing simulation tool for Thread 
 <hr>
 <b>How to use the PoolRunner</b> <br>
  <hr>
-<video width="320px" height="240px" src="https://github.com/user-attachments/assets/e34b71f1-76b3-458b-82b4-60e4a75502c9"></video> 
-
-
-https://drive.google.com/file/d/1slxa8KnF4hhyADOuOoBbM3ZRI0mXEHP2/view?usp=drive_link
-![](https://github.com/faisalbahadurhu/jpoolrunner/issues/6#issue-2858409218)
-
-
-
+[//]: # <video width="320px" height="240px" src="https://github.com/user-attachments/assets/e34b71f1-76b3-458b-82b4-60e4a75502c9"></video> 
 [![Image](https://github.com/user-attachments/assets/13be1940-31ad-4244-90a8-b7894993a16b)](https://drive.google.com/file/d/1slxa8KnF4hhyADOuOoBbM3ZRI0mXEHP2/view?usp=drive_link)
 
 
