@@ -10,7 +10,7 @@ A client-server based extensible performance testing simulation tool for Thread 
 <hr>
 
  <p align="center">
-<b>How to use the PoolRunner</b>
+How to use the PoolRunner
 </p>
  <br>
  <hr> 
