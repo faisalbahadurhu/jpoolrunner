@@ -18,7 +18,8 @@ https://drive.google.com/file/d/1slxa8KnF4hhyADOuOoBbM3ZRI0mXEHP2/view?usp=drive
 
 
 
-[![Image](https://github.com/user-attachments/assets/5b39a3ab-9d4d-4d86-9181-5e8c8bd69b0d)](https://drive.google.com/file/d/1slxa8KnF4hhyADOuOoBbM3ZRI0mXEHP2/view?usp=drive_link)
+[![Image](https://github.com/user-attachments/assets/b4b6951b-70b8-446d-8e06-c08d88a7d082)](https://drive.google.com/file/d/1slxa8KnF4hhyADOuOoBbM3ZRI0mXEHP2/view?usp=drive_link)
+
 
 
 
