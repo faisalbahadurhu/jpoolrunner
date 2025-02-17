@@ -11,7 +11,7 @@ A client-server based extensible performance testing simulation tool for Thread 
  <hr>
 <video width="320px" height="240px" src="https://github.com/user-attachments/assets/e34b71f1-76b3-458b-82b4-60e4a75502c9"></video> 
 
-<video width="320px" height="240px" src="https://drive.google.com/file/d/1slxa8KnF4hhyADOuOoBbM3ZRI0mXEHP2/view?usp=sharing"></video>
+<video src="https://drive.google.com/file/d/1slxa8KnF4hhyADOuOoBbM3ZRI0mXEHP2/view?usp=sharing"></video>
 
 
 
