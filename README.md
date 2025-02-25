@@ -12,12 +12,11 @@ A client-server based extensible performance testing simulation tool for Thread 
  <p align="center">
   <h2>How to use the PoolRunner</h2></p>
  <hr> 
- 
+<p>
 [![Image](https://github.com/user-attachments/assets/8a56ac47-9b14-4cfb-9161-fb3948ed5d27)](https://drive.google.com/file/d/1slxa8KnF4hhyADOuOoBbM3ZRI0mXEHP2/view?usp=drive_link)
 
 [![Image](https://github.com/user-attachments/assets/06830483-369c-49ac-a80a-dcc2f86d168c)](https://drive.google.com/file/d/1syMFzsCFV_Ft1YpW3bPuxx-QmoyrvLc1/view?usp=drive_link)
-
-
+</p> 
 
 
 
