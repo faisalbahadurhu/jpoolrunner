@@ -16,7 +16,7 @@ A client-server based extensible performance testing simulation tool for Thread 
  
 [![Image](https://github.com/user-attachments/assets/8a56ac47-9b14-4cfb-9161-fb3948ed5d27)](https://drive.google.com/file/d/1slxa8KnF4hhyADOuOoBbM3ZRI0mXEHP2/view?usp=drive_link)
 [![Image](https://github.com/user-attachments/assets/06830483-369c-49ac-a80a-dcc2f86d168c)](https://drive.google.com/file/d/1syMFzsCFV_Ft1YpW3bPuxx-QmoyrvLc1/view?usp=drive_link)
-[![Image](https://github.com/user-attachments/assets/81dd613d-ec7b-4ff5-9257-c447a70f04ef)](https://drive.google.com/file/d/1mBtKNswAQpSEJ0C5aodLRELEQGPWiFIK/view?usp=drive_link)
+[![Image](https://github.com/user-attachments/assets/8fc2ac8d-80bc-433b-bb6a-564ea8d9f47b)](https://drive.google.com/file/d/1mBtKNswAQpSEJ0C5aodLRELEQGPWiFIK/view?usp=drive_link)
 
 </p> 
 
