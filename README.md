@@ -1,5 +1,5 @@
 # jpoolrunner 
-### <a href="PoolRunner.pdf">IEEE ACCESS Paper on PoolRunner</a>
+### [IEEE ACCESS Paper on PoolRunner](PoolRunner.pdf)
 #### Learn how to use by video tutorials ![hand_indicator](https://user-images.githubusercontent.com/108230246/189908783-7740c721-a59c-4c61-89c0-165e4ed53e2d.gif) <a href="https://www.jpoolrunner.net">https://www.jpoolrunner.net is under construction</a> <hr>
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
  <a href="https://github.com/user-attachments/files/18772054/PoolRunner.zip">Download PoolRunner Now!</a> 
